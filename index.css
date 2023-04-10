@@ -1,0 +1,65 @@
+.body {
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+}
+.nav >p {
+    gap: 2rem;
+}
+.container {
+    display: flex;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.google > b {
+
+    display: flex;
+    font-size: 6rem;
+    justify-content: center;
+    margin-right:-35rem;
+
+}
+.search > p {
+    width: 35rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    justify-content: center;
+}
+.hello {
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color:white;
+
+}
+.circle {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 3rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.hello:hover{
+    background-color: lightgrey;
+}
+
+.round {
+    width: 78rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
